@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MuseuDoEstadoPE">
-        <activity android:name=".agendarActivity"></activity>
+        <activity android:name=".DonateActivity"></activity>
+        <activity android:name=".agendarActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

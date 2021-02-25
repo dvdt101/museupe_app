@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Museu do estado PE</string>
+    <string name="agendar">Agendar</string>
+    <string name="primeira_visita">Primeira visita</string>
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+    <string name="selecione_seu_sexo">Selecione seu sexo:</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="agendar_visita">Agendar Visita</string>
+    <string name="todo">TODO</string>
+    <string name="doar">Doar</string>
+    <string name="localiza_o">Localização</string>
 
     <string-array name="Estados_array">
         <item>Selecione estado</item>

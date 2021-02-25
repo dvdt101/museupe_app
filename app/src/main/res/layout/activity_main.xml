@@ -10,12 +10,15 @@
 
     <RelativeLayout
         android:id="@+id/relout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="376dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
 
         <ImageView
             android:id="@+id/museuLogo"
@@ -31,8 +34,8 @@
 
         <Button
             android:id="@+id/website_btn"
-            android:layout_width="188dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
@@ -40,7 +43,7 @@
             android:layout_marginStart="9dp"
             android:layout_marginTop="124dp"
             android:layout_marginEnd="215dp"
-            android:layout_marginBottom="137dp"
+            android:layout_marginBottom="127dp"
             android:background="#DBBF95"
             android:backgroundTint="#DBBF95"
             android:onClick="openWebSite"
@@ -48,48 +51,48 @@
 
         <Button
             android:id="@+id/map_btn"
-            android:layout_width="190dp"
-            android:layout_height="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="207dp"
             android:layout_marginTop="124dp"
-            android:layout_marginEnd="14dp"
-            android:layout_marginBottom="137dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="126dp"
             android:background="#DBBF95"
             android:backgroundTint="#DBBF95"
             android:onClick="localMuseuGoogleMaps"
-            android:text="Localização" />
+            android:text="@string/localiza_o" />
 
         <Button
             android:id="@+id/donate_btn"
-            android:layout_width="190dp"
-            android:layout_height="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="207dp"
-            android:layout_marginTop="233dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="9dp"
             android:layout_marginBottom="28dp"
             android:background="#DBBF95"
             android:backgroundTint="#DBBF95"
-            android:onClick="localMuseuGoogleMaps"
-            android:text="Doar" />
+            android:onClick="openDonate"
+            android:text="@string/doar" />
 
         <Button
             android:id="@+id/agendar_btn"
-            android:layout_width="190dp"
-            android:layout_height="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="9dp"
-            android:layout_marginTop="233dp"
+            android:layout_marginTop="218dp"
             android:layout_marginEnd="214dp"
             android:layout_marginBottom="28dp"
             android:background="#DBBF95"
@@ -97,11 +100,12 @@
             android:onClick="openAgendar"
             android:text="Agendar visita" />
 
+
     </RelativeLayout>
 
     <FrameLayout
-        android:layout_width="413dp"
-        android:layout_height="376dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/relout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -110,10 +114,11 @@
 
         <ImageView
             android:id="@+id/museu_img"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:scaleType="center"
             app:srcCompat="@drawable/museupe" />
+
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openDonate(View v){
-
+        Intent open = new Intent(this, DonateActivity.class);
+        startActivity(open);
     }
 
 }
